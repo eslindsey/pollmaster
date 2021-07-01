@@ -6,6 +6,14 @@ These steps have been tested on Ubuntu 19.04 with miniconda for Python 3.7 and D
 [Miniconda3](https://docs.conda.io/en/latest/miniconda.html)  
 [Docker Engine: Community](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 
+## Environment
+
+**Ubuntu Server 20.04 LTS**
+```sh
+wget -O - https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh | bash
+sudo apt install make g++ libfreetype-dev
+```
+
 ## Installation
 
 Execute the following commands from a terminal window:
